@@ -1,0 +1,223 @@
+/* line 3, ../sass/zgc.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../sass/zgc.scss */
+body {
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+}
+
+/* line 14, ../sass/zgc.scss */
+#zd {
+  width: 100%;
+  height: 139px;
+  background: aqua;
+  margin: auto;
+}
+
+/* line 21, ../sass/zgc.scss */
+.zds {
+  width: 1200px;
+  height: 98px;
+  background: yellow;
+  margin: auto;
+  position: relative;
+}
+
+/* line 29, ../sass/zgc.scss */
+.zds img {
+  position: absolute;
+  top: 30%;
+}
+
+/* line 33, ../sass/zgc.scss */
+.ssk {
+  width: 573px;
+  height: 66px;
+  background: royalblue;
+  margin: 0 auto;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+/* line 43, ../sass/zgc.scss */
+.zdx {
+  width: 1200px;
+  height: 40px;
+  border-top: 1px solid #ccc;
+  background: pink;
+  margin: auto;
+}
+
+/* line 50, ../sass/zgc.scss */
+.sydh {
+  width: 410px;
+  height: 100%;
+  float: left;
+}
+
+/* line 55, ../sass/zgc.scss */
+.zhucedenglu {
+  width: 125px;
+  height: 100%;
+  float: right;
+  margin-right: 10px;
+}
+
+/* line 62, ../sass/zgc.scss */
+a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  color: #333;
+}
+
+/* line 69, ../sass/zgc.scss */
+.aqt:hover {
+  color: #f74b44;
+}
+
+/* line 72, ../sass/zgc.scss */
+.asy {
+  color: #f74b44;
+  margin-right: 32px;
+}
+
+/* line 76, ../sass/zgc.scss */
+.aqt {
+  margin-right: 32px;
+}
+
+/* line 79, ../sass/zgc.scss */
+.zhuce {
+  width: 50px;
+  color: #f74b44;
+  font-size: 14px;
+}
+
+/* line 84, ../sass/zgc.scss */
+.denglu {
+  width: 49px;
+  color: #333;
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+/* line 92, ../sass/zgc.scss */
+#daohangtu {
+  width: 1200px;
+  height: 377px;
+  background: red;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* line 100, ../sass/zgc.scss */
+.daohang {
+  width: 190px;
+  height: 100%;
+  background: salmon;
+  border-right: 1px solid #ccc;
+  float: left;
+}
+
+/* line 108, ../sass/zgc.scss */
+.lunbotu {
+  width: 1009px;
+  height: 100%;
+  background: green;
+  float: right;
+}
+
+/* line 115, ../sass/zgc.scss */
+#dgw {
+  width: 1200px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+}
+
+/* line 122, ../sass/zgc.scss */
+.dgw-z {
+  width: 890px;
+}
+
+/* line 126, ../sass/zgc.scss */
+.dgw-z-s {
+  width: 890px;
+  height: 334px;
+  background: greenyellow;
+}
+
+/* line 132, ../sass/zgc.scss */
+.dgw-z-z {
+  width: 890px;
+  height: 281px;
+  background: blue;
+  margin-top: 10px;
+}
+
+/* line 139, ../sass/zgc.scss */
+.dgw-z-x {
+  width: 890px;
+  height: 175px;
+  background: orange;
+  margin-top: 10px;
+}
+
+/* line 146, ../sass/zgc.scss */
+.dgw-y {
+  width: 300px;
+  margin-left: 10px;
+}
+
+/* line 152, ../sass/zgc.scss */
+.dgw-y-s {
+  width: 100%;
+  height: 320px;
+  background: orchid;
+}
+
+/* line 158, ../sass/zgc.scss */
+.dgw-y-z {
+  width: 100%;
+  height: 423px;
+  background: darkgoldenrod;
+  margin-top: 10px;
+}
+
+/* line 165, ../sass/zgc.scss */
+.dgw-y-x {
+  width: 100%;
+  height: 320px;
+  background: khaki;
+  margin-top: 10px;
+}
+
+/* line 172, ../sass/zgc.scss */
+#db {
+  width: 100%;
+  height: 40px;
+  background: black;
+}
+
+/* line 179, ../sass/zgc.scss */
+.dbl {
+  width: 1200px;
+  height: 40px;
+  background: blueviolet;
+  margin: auto;
+}
+
+/* line 186, ../sass/zgc.scss */
+#ggc {
+  background: #fff;
+  position: fixed;
+  right: 10px;
+  top: 40%;
+}

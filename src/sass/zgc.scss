@@ -1,0 +1,194 @@
+@import "compass/css3";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+}
+
+#zd {
+    width: 100%;
+    height: 139px;
+    background: aqua;
+    margin: auto;
+}
+
+.zds {
+    width: 1200px;
+    height: 98px;
+    background: yellow;
+    margin: auto;
+    position: relative;
+}
+
+.zds img {
+    position: absolute;
+    top: 30%;
+}
+.ssk {
+    width: 573px;
+    height: 66px;
+    background: royalblue;
+    margin: 0 auto ;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.zdx {
+    width: 1200px;
+    height: 40px;
+    border-top: 1px solid #ccc;
+    background: pink;
+    margin: auto;
+}
+.sydh{
+    width: 410px;
+    height: 100%;
+    float: left;
+}
+.zhucedenglu {
+    width: 125px;
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    
+    line-height: 40px;
+    color: #333;
+}
+.aqt:hover{
+    color: #f74b44;
+}
+.asy {
+    color: #f74b44;
+    margin-right: 32px;
+}
+.aqt {
+    margin-right: 32px;
+}
+.zhuce {
+    width: 50px;
+    color: #f74b44;
+    font-size: 14px;
+}
+.denglu {
+    width: 49px;
+    color: #333;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+
+#daohangtu {
+    width: 1200px;
+    height: 377px;
+    background: red;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.daohang {
+    width: 190px;
+    height: 100%;
+    background: salmon;
+    border-right: 1px solid #ccc;
+    float: left;
+}
+
+.lunbotu {
+    width: 1009px;
+    height: 100%;
+    background: green;
+    float: right;
+}
+
+#dgw {
+    width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.dgw-z {
+    width: 890px;
+}
+
+.dgw-z-s {
+    width: 890px;
+    height: 334px;
+    background: greenyellow;
+}
+
+.dgw-z-z {
+    width: 890px;
+    height: 281px;
+    background: blue;
+    margin-top: 10px;
+}
+
+.dgw-z-x {
+    width: 890px;
+    height: 175px;
+    background: orange;
+    margin-top: 10px;
+}
+
+.dgw-y {
+    width: 300px;
+    // float: right;
+    margin-left: 10px;
+}
+
+.dgw-y-s {
+    width: 100%;
+    height: 320px;
+    background: orchid;
+}
+
+.dgw-y-z {
+    width: 100%;
+    height: 423px;
+    background: darkgoldenrod;
+    margin-top: 10px;
+}
+
+.dgw-y-x {
+    width: 100%;
+    height: 320px;
+    background: khaki;
+    margin-top: 10px;
+}
+
+#db {
+    width: 100%;
+    height: 40px;
+    background: black;
+
+}
+
+.dbl {
+    width: 1200px;
+    height: 40px;
+    background: blueviolet;
+    margin: auto;
+}
+
+#ggc {
+    background: #fff;
+    position: fixed;
+    right: 10px;
+    top: 40%;
+}
+
+
+
