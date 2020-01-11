@@ -50,10 +50,63 @@ a{
 #neibu{
     width: 990px;
     height: 768px;
-    background: aqua;
+    // background: aqua;
     border: 1px solid #ccc;
     margin: auto;
 }
+.nbtb{
+    width: 990px;;
+    height: 60px;
+    background: #fafafa;
+}
+.sj{
+    width: 502px;
+    height: 40px;
+    margin-left: 89px;
+    margin-top: 30px;
+}
+.sjz{
+    float: left;
+    width: 250px;
+    height: 40px;
+    border-left: solid 1px #ccc;
+    border-top: solid 2px #cc0000;
+    border-right: solid 1px #ccc;
+    position: relative;
+}
+.sjznr{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.xsjtp{
+    width: 14px;
+    height: 24px;
+}
+.xsjwz{
+    position: absolute;
+    top: 8px;
+    left: 80px;
+}
+.sjy{
+    float: right;
+    width: 250px;
+    height: 40px;
+    border-bottom: solid 1px #ccc;
+}
+.bdzc{
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 89px;
+}
+.bdzcn{
+    font-size: 14px;
+}
+.inp{
+    width: 290px;
+    height: 40px;
+    margin-top: 30px;
+}
+
 #zcdb{
     width: 100%;
     border-top: 1px solid #ccc;

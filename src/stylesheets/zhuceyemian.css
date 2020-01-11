@@ -69,12 +69,83 @@ a {
 #neibu {
   width: 990px;
   height: 768px;
-  background: aqua;
   border: 1px solid #ccc;
   margin: auto;
 }
 
 /* line 57, ../sass/zhuceyemian.scss */
+.nbtb {
+  width: 990px;
+  height: 60px;
+  background: #fafafa;
+}
+
+/* line 62, ../sass/zhuceyemian.scss */
+.sj {
+  width: 502px;
+  height: 40px;
+  margin-left: 89px;
+  margin-top: 30px;
+}
+
+/* line 68, ../sass/zhuceyemian.scss */
+.sjz {
+  float: left;
+  width: 250px;
+  height: 40px;
+  border-left: solid 1px #ccc;
+  border-top: solid 2px #cc0000;
+  border-right: solid 1px #ccc;
+  position: relative;
+}
+
+/* line 77, ../sass/zhuceyemian.scss */
+.sjznr {
+  margin-left: 55px;
+  margin-top: 10px;
+}
+
+/* line 81, ../sass/zhuceyemian.scss */
+.xsjtp {
+  width: 14px;
+  height: 24px;
+}
+
+/* line 85, ../sass/zhuceyemian.scss */
+.xsjwz {
+  position: absolute;
+  top: 8px;
+  left: 80px;
+}
+
+/* line 90, ../sass/zhuceyemian.scss */
+.sjy {
+  float: right;
+  width: 250px;
+  height: 40px;
+  border-bottom: solid 1px #ccc;
+}
+
+/* line 96, ../sass/zhuceyemian.scss */
+.bdzc {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 89px;
+}
+
+/* line 101, ../sass/zhuceyemian.scss */
+.bdzcn {
+  font-size: 14px;
+}
+
+/* line 104, ../sass/zhuceyemian.scss */
+.inp {
+  width: 290px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+/* line 110, ../sass/zhuceyemian.scss */
 #zcdb {
   width: 100%;
   border-top: 1px solid #ccc;
@@ -82,7 +153,7 @@ a {
   margin-top: 50px;
 }
 
-/* line 63, ../sass/zhuceyemian.scss */
+/* line 116, ../sass/zhuceyemian.scss */
 .zcdbzj {
   width: 990px;
   height: 100%;
@@ -90,23 +161,23 @@ a {
   margin-top: 10px;
 }
 
-/* line 69, ../sass/zhuceyemian.scss */
+/* line 122, ../sass/zhuceyemian.scss */
 .zjdzb {
   float: left;
 }
 
-/* line 72, ../sass/zhuceyemian.scss */
+/* line 125, ../sass/zhuceyemian.scss */
 .zjdyb {
   float: right;
   color: #666;
 }
 
-/* line 76, ../sass/zhuceyemian.scss */
+/* line 129, ../sass/zhuceyemian.scss */
 .dbwza {
   color: #666666;
 }
 
-/* line 79, ../sass/zhuceyemian.scss */
+/* line 132, ../sass/zhuceyemian.scss */
 .dbwza:hover {
   color: #cc0000;
 }
