@@ -1,0 +1,112 @@
+/* line 1, ../sass/zhuceyemian.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../sass/zhuceyemian.scss */
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 10, ../sass/zhuceyemian.scss */
+#toubu {
+  width: 990px;
+  height: 94px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+/* line 17, ../sass/zhuceyemian.scss */
+.logosc {
+  float: left;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+/* line 22, ../sass/zhuceyemian.scss */
+.tbtp {
+  border-right: 1px solid #ccc;
+  width: 130px;
+  height: 60px;
+}
+
+/* line 27, ../sass/zhuceyemian.scss */
+.logodwza {
+  width: 197px;
+}
+
+/* line 30, ../sass/zhuceyemian.scss */
+.tbyc {
+  width: 600px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  height: 94px;
+}
+
+/* line 37, ../sass/zhuceyemian.scss */
+.ljdla {
+  color: #cccccc;
+  line-height: 94px;
+  height: 14px;
+}
+
+/* line 42, ../sass/zhuceyemian.scss */
+.ljdla:hover {
+  color: #cc0000;
+}
+
+/* line 45, ../sass/zhuceyemian.scss */
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/* line 50, ../sass/zhuceyemian.scss */
+#neibu {
+  width: 990px;
+  height: 768px;
+  background: aqua;
+  border: 1px solid #ccc;
+  margin: auto;
+}
+
+/* line 57, ../sass/zhuceyemian.scss */
+#zcdb {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  height: 150px;
+  margin-top: 50px;
+}
+
+/* line 63, ../sass/zhuceyemian.scss */
+.zcdbzj {
+  width: 990px;
+  height: 100%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* line 69, ../sass/zhuceyemian.scss */
+.zjdzb {
+  float: left;
+}
+
+/* line 72, ../sass/zhuceyemian.scss */
+.zjdyb {
+  float: right;
+  color: #666;
+}
+
+/* line 76, ../sass/zhuceyemian.scss */
+.dbwza {
+  color: #666666;
+}
+
+/* line 79, ../sass/zhuceyemian.scss */
+.dbwza:hover {
+  color: #cc0000;
+}

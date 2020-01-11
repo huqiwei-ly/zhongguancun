@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+#toubu{
+    width: 990px;
+    height: 94px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+.logosc{
+    float: left;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.tbtp{
+    border-right: 1px solid #ccc;
+    width: 130px;
+    height: 60px;
+}
+.logodwza{
+    width: 197px;
+}
+.tbyc{
+    width: 600px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    height: 94px;
+}
+.ljdla{
+    color: #cccccc;
+    line-height: 94px;
+    height: 14px;
+}
+.ljdla:hover{
+    color: #cc0000;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+#neibu{
+    width: 990px;
+    height: 768px;
+    background: aqua;
+    border: 1px solid #ccc;
+    margin: auto;
+}
+#zcdb{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    height: 150px;
+    margin-top: 50px;
+}
+.zcdbzj{
+    width: 990px;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+.zjdzb{
+    float: left;
+}
+.zjdyb{
+    float: right;
+    color: #666;
+}
+.dbwza{
+    color: #666666;
+}
+.dbwza:hover{
+    color: #cc0000;
+}
