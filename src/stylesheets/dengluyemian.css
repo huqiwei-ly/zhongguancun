@@ -63,19 +63,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 2, ../sass/zhuceyemian.scss */
+/* line 2, ../sass/dengluyemian.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 7, ../sass/zhuceyemian.scss */
-body {
-  width: 100%;
-  height: 100%;
-}
-
-/* line 11, ../sass/zhuceyemian.scss */
+/* line 6, ../sass/dengluyemian.scss */
 #toubu {
   width: 990px;
   height: 94px;
@@ -84,26 +78,26 @@ body {
   position: relative;
 }
 
-/* line 18, ../sass/zhuceyemian.scss */
+/* line 13, ../sass/dengluyemian.scss */
 .logosc {
   float: left;
   margin-top: 18px;
   margin-right: 10px;
 }
 
-/* line 23, ../sass/zhuceyemian.scss */
+/* line 18, ../sass/dengluyemian.scss */
 .tbtp {
   border-right: 1px solid #ccc;
   width: 130px;
   height: 60px;
 }
 
-/* line 28, ../sass/zhuceyemian.scss */
+/* line 23, ../sass/dengluyemian.scss */
 .logodwza {
   width: 197px;
 }
 
-/* line 31, ../sass/zhuceyemian.scss */
+/* line 26, ../sass/dengluyemian.scss */
 .tbyc {
   width: 600px;
   position: absolute;
@@ -112,106 +106,109 @@ body {
   height: 94px;
 }
 
-/* line 39, ../sass/zhuceyemian.scss */
-.ljdla {
+/* line 33, ../sass/dengluyemian.scss */
+.ljzca {
   color: #cccccc;
   line-height: 94px;
   height: 14px;
 }
 
-/* line 44, ../sass/zhuceyemian.scss */
-.ljdla:hover {
+/* line 38, ../sass/dengluyemian.scss */
+.ljzca:hover {
   color: #cc0000;
 }
 
-/* line 47, ../sass/zhuceyemian.scss */
+/* line 41, ../sass/dengluyemian.scss */
 a {
   text-decoration: none;
   color: #ccc;
 }
 
-/* line 52, ../sass/zhuceyemian.scss */
-#neibu {
-  width: 990px;
-  height: 768px;
-  border: 1px solid #ccc;
+/* line 46, ../sass/dengluyemian.scss */
+#dlmk {
+  width: 988px;
+  height: 350px;
   margin: auto;
+  margin-top: 26px;
+  border: 1px solid #ccc;
 }
 
-/* line 59, ../sass/zhuceyemian.scss */
-.nbtb {
-  width: 990px;
-  height: 60px;
-  background: #fafafa;
-}
-
-/* line 64, ../sass/zhuceyemian.scss */
-.sj {
-  width: 502px;
-  height: 40px;
-  margin-left: 89px;
-  margin-top: 30px;
-}
-
-/* line 70, ../sass/zhuceyemian.scss */
-.sjz {
+/* line 53, ../sass/dengluyemian.scss */
+.dltp {
   float: left;
-  width: 250px;
-  height: 40px;
-  border-left: solid 1px #ccc;
-  border-top: solid 2px #cc0000;
-  border-right: solid 1px #ccc;
-  position: relative;
 }
 
-/* line 79, ../sass/zhuceyemian.scss */
-.sjznr {
-  margin-left: 55px;
-  margin-top: 10px;
-}
-
-/* line 83, ../sass/zhuceyemian.scss */
-.xsjtp {
-  width: 14px;
-  height: 24px;
-}
-
-/* line 87, ../sass/zhuceyemian.scss */
-.xsjwz {
-  position: absolute;
-  top: 8px;
-  left: 80px;
-}
-
-/* line 92, ../sass/zhuceyemian.scss */
-.sjy {
+/* line 56, ../sass/dengluyemian.scss */
+.dlwz {
+  width: 290px;
+  height: 57px;
   float: right;
-  width: 250px;
-  height: 40px;
-  border-bottom: solid 1px #ccc;
+  font-size: 26px;
+  margin-right: 80px;
+  margin-top: 20px;
 }
 
-/* line 98, ../sass/zhuceyemian.scss */
-.bdzc {
-  width: 500px;
-  margin-top: 30px;
-  margin-left: 89px;
+/* line 64, ../sass/dengluyemian.scss */
+.dlys {
+  width: 290px;
+  float: right;
+  margin-right: 88px;
 }
 
-/* line 103, ../sass/zhuceyemian.scss */
-.bdzcn {
-  font-size: 14px;
-}
-
-/* line 106, ../sass/zhuceyemian.scss */
-.inp {
+/* line 68, ../sass/dengluyemian.scss */
+.inp1 {
   width: 290px;
   height: 40px;
-  margin-top: 30px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
 }
 
-/* line 111, ../sass/zhuceyemian.scss */
-.zcan {
+/* line 74, ../sass/dengluyemian.scss */
+.inp2 {
+  width: 290px;
+  height: 40px;
+  border: 1px solid #ccc;
+}
+
+/* line 79, ../sass/dengluyemian.scss */
+.inp {
+  display: block;
+  width: 278px;
+  height: 22px;
+  margin-top: 8px;
+  border: none;
+  outline: none;
+  margin-left: 4px;
+}
+
+/* line 88, ../sass/dengluyemian.scss */
+.wjmm {
+  margin-top: 20px;
+}
+
+/* line 91, ../sass/dengluyemian.scss */
+.sjdt {
+  float: left;
+}
+
+/* line 94, ../sass/dengluyemian.scss */
+.wjmma {
+  float: right;
+}
+
+/* line 97, ../sass/dengluyemian.scss */
+.sjdt:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+/* line 101, ../sass/dengluyemian.scss */
+.mmaa:hover {
+  color: orange;
+}
+
+/* line 104, ../sass/dengluyemian.scss */
+.dlan {
   width: 290px;
   height: 40px;
   background: #cc0000;
@@ -219,50 +216,51 @@ a {
   color: white;
   font-size: 20px;
   border-radius: 3px;
-  margin-top: 30px;
-  margin-left: 80px;
+  margin-top: 15px;
   outline: none;
 }
 
-/* line 123, ../sass/zhuceyemian.scss */
-.zcan:hover {
+/* line 115, ../sass/dengluyemian.scss */
+.dlan:hover {
   cursor: pointer;
   background: #940505;
 }
 
-/* line 128, ../sass/zhuceyemian.scss */
+/* line 126, ../sass/dengluyemian.scss */
 #zcdb {
   width: 100%;
   border-top: 1px solid #ccc;
-  height: 150px;
+  height: 55px;
   margin-top: 50px;
+  position: fixed;
+  bottom: 0;
 }
 
-/* line 134, ../sass/zhuceyemian.scss */
+/* line 134, ../sass/dengluyemian.scss */
 .zcdbzj {
   width: 990px;
-  height: 100%;
+  height: 55px;
   margin: auto;
   margin-top: 10px;
 }
 
-/* line 140, ../sass/zhuceyemian.scss */
+/* line 140, ../sass/dengluyemian.scss */
 .zjdzb {
   float: left;
 }
 
-/* line 143, ../sass/zhuceyemian.scss */
+/* line 143, ../sass/dengluyemian.scss */
 .zjdyb {
   float: right;
   color: #666;
 }
 
-/* line 147, ../sass/zhuceyemian.scss */
+/* line 147, ../sass/dengluyemian.scss */
 .dbwza {
   color: #666666;
 }
 
-/* line 150, ../sass/zhuceyemian.scss */
+/* line 150, ../sass/dengluyemian.scss */
 .dbwza:hover {
   color: #cc0000;
 }

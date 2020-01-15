@@ -1,4 +1,4 @@
-@import "compass/css3";
+@import "compass/reset";
 
 * {
     margin: 0;
@@ -197,7 +197,6 @@ em {
     float: right;
 }
 
-
 #dgw {
     width: 1200px;
     margin: auto;
@@ -211,7 +210,7 @@ em {
 
 .dgw-z-s {
     width: 890px;
-    height: 334px;
+    height: 60px;
     background: white;
     position: relative;
 }
@@ -245,14 +244,36 @@ em {
     width: 96px;
     height: 22px;
 }
-
+.hmzjnr{
+    width: 870px;
+    height: 199px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -10px;
+}
+.hmzjnr1{
+    font-size: 14px;
+    color: #333;
+}
+.hmzjnr1:hover{
+    color: #cc0000;
+}
+.hmtp{
+    width: 152px;
+    height: 152px;
+}
 .dgw-z-x {
     width: 890px;
-    height: 175px;
-    background: orange;
+    background: white;
     margin-top: 10px;
 }
-
+.tab{
+    widows: 850px;
+    height: 37px;
+    // background: blue;
+    border-bottom: 1px solid #ccc;
+}
 .dgw-y {
     width: 300px;
     margin-left: 10px;
@@ -261,14 +282,48 @@ em {
 .dgw-y-s {
     width: 100%;
     height: 320px;
-    background: orchid;
+    background: white;
 }
-
-.dgw-y-z {
-    width: 100%;
-    height: 423px;
-    background: darkgoldenrod;
-    margin-top: 10px;
+.ystp{
+    margin: 20px 20px 20px 20px;
+}
+.xrli{
+    width: 890px;
+    height: 185px;
+    border-bottom: 1px #ccc solid;
+    position: relative;
+    margin-top: 20px;
+    img{
+        width: 154px;
+        height: 154px;
+    }
+    .wza{
+        position: absolute;
+        top:10px;
+        left: 180px;
+    }
+    p{
+        position: absolute;
+        top:40px;
+        left: 180px;
+        color: #f74b44;
+        font-size: 20px;
+    }
+    .ana{
+        display: block;
+        width: 100px;
+        height: 40px;
+        background: #f74b44;
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        
+        span{
+            line-height: 40px;
+            margin-left: 20px;
+        }
+    }
 }
 .rmtg{
     width: 100%;
@@ -277,8 +332,11 @@ em {
 .dgw-y-x {
     width: 100%;
     height: 320px;
-    background: khaki;
-    margin-top: 10px;
+    background: white;
+    // margin-top: 10px;
+}
+.yxtp{
+    margin: 20px 20px 20px 20px;
 }
 
 #db {

@@ -1,3 +1,68 @@
+/* line 5, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
 /* line 3, ../sass/zgc.scss */
 * {
   margin: 0;
@@ -252,7 +317,7 @@ em {
   float: right;
 }
 
-/* line 201, ../sass/zgc.scss */
+/* line 200, ../sass/zgc.scss */
 #dgw {
   width: 1200px;
   margin: auto;
@@ -260,20 +325,20 @@ em {
   display: flex;
 }
 
-/* line 208, ../sass/zgc.scss */
+/* line 207, ../sass/zgc.scss */
 .dgw-z {
   width: 890px;
 }
 
-/* line 212, ../sass/zgc.scss */
+/* line 211, ../sass/zgc.scss */
 .dgw-z-s {
   width: 890px;
-  height: 334px;
+  height: 60px;
   background: white;
   position: relative;
 }
 
-/* line 219, ../sass/zgc.scss */
+/* line 218, ../sass/zgc.scss */
 .jrqg {
   width: 850px;
   height: 22px;
@@ -282,13 +347,13 @@ em {
   left: 20px;
 }
 
-/* line 226, ../sass/zgc.scss */
+/* line 225, ../sass/zgc.scss */
 .jrqgtp {
   width: 96px;
   height: 22px;
 }
 
-/* line 230, ../sass/zgc.scss */
+/* line 229, ../sass/zgc.scss */
 .dgw-z-z {
   width: 890px;
   height: 281px;
@@ -297,7 +362,7 @@ em {
   position: relative;
 }
 
-/* line 237, ../sass/zgc.scss */
+/* line 236, ../sass/zgc.scss */
 .hmzj {
   width: 850px;
   height: 22px;
@@ -306,89 +371,167 @@ em {
   left: 20px;
 }
 
-/* line 244, ../sass/zgc.scss */
+/* line 243, ../sass/zgc.scss */
 .hmzjtp {
   width: 96px;
   height: 22px;
 }
 
-/* line 249, ../sass/zgc.scss */
+/* line 247, ../sass/zgc.scss */
+.hmzjnr {
+  width: 870px;
+  height: 199px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: -10px;
+}
+
+/* line 255, ../sass/zgc.scss */
+.hmzjnr1 {
+  font-size: 14px;
+  color: #333;
+}
+
+/* line 259, ../sass/zgc.scss */
+.hmzjnr1:hover {
+  color: #cc0000;
+}
+
+/* line 262, ../sass/zgc.scss */
+.hmtp {
+  width: 152px;
+  height: 152px;
+}
+
+/* line 266, ../sass/zgc.scss */
 .dgw-z-x {
   width: 890px;
-  height: 175px;
-  background: orange;
+  background: white;
   margin-top: 10px;
 }
 
-/* line 256, ../sass/zgc.scss */
+/* line 271, ../sass/zgc.scss */
+.tab {
+  widows: 850px;
+  height: 37px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 277, ../sass/zgc.scss */
 .dgw-y {
   width: 300px;
   margin-left: 10px;
 }
 
-/* line 261, ../sass/zgc.scss */
+/* line 282, ../sass/zgc.scss */
 .dgw-y-s {
   width: 100%;
   height: 320px;
-  background: orchid;
+  background: white;
 }
 
-/* line 267, ../sass/zgc.scss */
-.dgw-y-z {
-  width: 100%;
-  height: 423px;
-  background: darkgoldenrod;
-  margin-top: 10px;
+/* line 287, ../sass/zgc.scss */
+.ystp {
+  margin: 20px 20px 20px 20px;
 }
 
-/* line 273, ../sass/zgc.scss */
+/* line 290, ../sass/zgc.scss */
+.xrli {
+  width: 890px;
+  height: 185px;
+  border-bottom: 1px #ccc solid;
+  position: relative;
+  margin-top: 20px;
+}
+/* line 296, ../sass/zgc.scss */
+.xrli img {
+  width: 154px;
+  height: 154px;
+}
+/* line 300, ../sass/zgc.scss */
+.xrli .wza {
+  position: absolute;
+  top: 10px;
+  left: 180px;
+}
+/* line 305, ../sass/zgc.scss */
+.xrli p {
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  color: #f74b44;
+  font-size: 20px;
+}
+/* line 312, ../sass/zgc.scss */
+.xrli .ana {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background: #f74b44;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+/* line 322, ../sass/zgc.scss */
+.xrli .ana span {
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+/* line 328, ../sass/zgc.scss */
 .rmtg {
   width: 100%;
   padding: 20px;
 }
 
-/* line 277, ../sass/zgc.scss */
+/* line 332, ../sass/zgc.scss */
 .dgw-y-x {
   width: 100%;
   height: 320px;
-  background: khaki;
-  margin-top: 10px;
+  background: white;
 }
 
-/* line 284, ../sass/zgc.scss */
+/* line 338, ../sass/zgc.scss */
+.yxtp {
+  margin: 20px 20px 20px 20px;
+}
+
+/* line 342, ../sass/zgc.scss */
 #db {
   width: 100%;
   height: 40px;
   background: black;
 }
 
-/* line 291, ../sass/zgc.scss */
+/* line 349, ../sass/zgc.scss */
 .dbl {
   width: 1200px;
   height: 40px;
   margin: auto;
 }
 
-/* line 296, ../sass/zgc.scss */
+/* line 354, ../sass/zgc.scss */
 .zgcdb {
   font-size: 12px;
   color: #ccc;
   line-height: 40px;
 }
 
-/* line 301, ../sass/zgc.scss */
+/* line 359, ../sass/zgc.scss */
 .dbwz {
   float: right;
 }
 
-/* line 304, ../sass/zgc.scss */
+/* line 362, ../sass/zgc.scss */
 .dbwzz {
   font-size: 12px;
   color: #ccc;
   line-height: 40px;
 }
 
-/* line 310, ../sass/zgc.scss */
+/* line 368, ../sass/zgc.scss */
 #ggc {
   background: #fff;
   position: fixed;

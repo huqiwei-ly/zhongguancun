@@ -19,10 +19,9 @@
                     <p style="line-height: 94px;">中关村在线旗下导购平台</p>
                 </a>
                 <div class="tbyc">
-                    <a href="http://10.31.152.19/zhongguancun/src/login.html" target="_blank" style="float: right;"
-                        class="ljdla">立即登录</a>
+                    <a href="http://10.31.152.19/zhongguancun/src/login.html" target="_blank"
+                        style="float: right; line-height: 94px;" class="ljdla">立即登录</a>
                     <p style="float: right;line-height: 94px;">已经有值买账号？</p>
-
                 </div>
     </div>
     <!-- 注册内部 -->
@@ -35,21 +34,18 @@
                 <div class="sjznr">
                     <img src="images/xsj.png" alt="" class="xsjtp">
                 </div>
-                <span style="color: #cc0000;font-size: 20px;" class="xsjwz">用手机号注册</span>
+                <p style="color: #cc0000;font-size: 20px;" class="xsjwz">用手机号注册</p>
             </div>
             <div class="sjy"></div>
         </div>
         <div class="bdzc">
-            <p class="bdzcnr"><label for="">*手机号　：</label><input type="text" name="sjh" class="inp"></p>
-            <p style="color: #aaaaaa; font-size: 12px;margin-left: 90px;">请填写手机号</p>
-            <p class="bdzcnr"><label for="">*验证码　：</label><input type="password" name="yzm1" class="inp"></p>
-            <p style="color: #aaaaaa; font-size: 12px;margin-left: 90px;">获得验证码</p>
-            <p class="bdzcnr"><label for="">*验证码　：</label><input type="text" name="yzm2" class="inp"></p>
-            <p style="color: #aaaaaa; font-size: 12px;margin-left: 90px;">请填写手机号码，输入验证码</p>
-            <p class="bdzcnr"><label for="">*密　码　：</label><input type="text" name="mm" class="inp"></p>
-            <p style="color: #aaaaaa; font-size: 12px;margin-left: 90px;">6-16位字母和数字的组合，不可用特殊字符</p>
-            <p class="bdzcnr"><label for="">*确认密码：</label><input type="text" name="qrmm" class="inp"></p>
-            <p style="color: #aaaaaa; font-size: 12px;margin-left: 90px;">再输入一次密码</p>
+            <form action="http://10.31.152.19/zhongguancun/php/zhuce.php" method="post">
+                <p class="bdzcnr"><label for="">*手机号　：</label><input type="text" name="username" class="inp">
+                    <span style="color: #aaaaaa; font-size: 12px;margin-left: 10px; margin-top: 10px;">请填写手机号</span>
+                </p>
+                <p class="bdzcnr"><label for="">*密　码　：</label><input type="text" name="password" class="inp">
+                <p><input type="submit" value="注册" name="submit" class="zcan"></p>
+            </form>
         </div>
     </div>
     <!-- 注册底部文字 -->
@@ -65,6 +61,9 @@
             </div>
         </div>
     </div>
+    <script src="script/jquery.js"></script>
+    <script src="script/zhuce.js"></script>
+    <script src="script/tool.js"></script>
 </body>
 
 </html>

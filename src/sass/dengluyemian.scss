@@ -3,11 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
-body{
-    width: 100%;
-    height: 100%;
-}
 #toubu{
     width: 990px;
     height: 94px;
@@ -35,13 +30,12 @@ body{
     top: 0px;
     height: 94px;
 }
-
-.ljdla{
+.ljzca{
     color: #cccccc;
     line-height: 94px;
     height: 14px;
 }
-.ljdla:hover{
+.ljzca:hover{
     color: #cc0000;
 }
 a{
@@ -49,66 +43,65 @@ a{
     color: #ccc;
 }
 
-#neibu{
-    width: 990px;
-    height: 768px;
-    // background: aqua;
-    border: 1px solid #ccc;
+#dlmk{
+    width: 988px;
+    height: 350px;
     margin: auto;
+    margin-top: 26px;
+    border: 1px solid #ccc;
 }
-.nbtb{
-    width: 990px;;
-    height: 60px;
-    background: #fafafa;
-}
-.sj{
-    width: 502px;
-    height: 40px;
-    margin-left: 89px;
-    margin-top: 30px;
-}
-.sjz{
+.dltp{
     float: left;
-    width: 250px;
-    height: 40px;
-    border-left: solid 1px #ccc;
-    border-top: solid 2px #cc0000;
-    border-right: solid 1px #ccc;
-    position: relative;
 }
-.sjznr{
-    margin-left: 55px;
-    margin-top: 10px;
-}
-.xsjtp{
-    width: 14px;
-    height: 24px;
-}
-.xsjwz{
-    position: absolute;
-    top: 8px;
-    left: 80px;
-}
-.sjy{
+.dlwz{
+    width: 290px;
+    height: 57px;
     float: right;
-    width: 250px;
-    height: 40px;
-    border-bottom: solid 1px #ccc;
+    font-size: 26px;
+    margin-right:80px;
+    margin-top: 20px;
 }
-.bdzc{
-    width: 500px;
-    margin-top: 30px;
-    margin-left: 89px;
+.dlys{
+    width: 290px;    float: right;
+    margin-right: 88px;
 }
-.bdzcn{
-    font-size: 14px;
-}
-.inp{
+.inp1{
     width: 290px;
     height: 40px;
-    margin-top: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
 }
-.zcan{
+.inp2{
+    width: 290px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+.inp{
+    display: block;
+    width: 278px;
+    height: 22px;
+    margin-top: 8px;
+    border: none;
+    outline:none;
+    margin-left: 4px;
+}
+.wjmm{
+    margin-top: 20px;
+}
+.sjdt{
+    float: left;
+}
+.wjmma{
+    float: right;
+}
+.sjdt:hover{
+    color: orange;
+    cursor: pointer;
+}
+.mmaa:hover{
+    color: orange;
+}
+.dlan{
     width: 290px;
     height: 40px;
     background: #cc0000;
@@ -116,24 +109,31 @@ a{
     color: white;
     font-size: 20px;
     border-radius: 3px;
-    margin-top: 30px;
-    margin-left: 80px;
+    margin-top: 15px;
     outline:none;
 }
-.zcan:hover{
+.dlan:hover{
     cursor: pointer;
     background: #940505;
 }
 
+
+
+
+
+
+
 #zcdb{
     width: 100%;
     border-top: 1px solid #ccc;
-    height: 150px;
+    height: 55px;
     margin-top: 50px;
+    position: fixed;
+    bottom: 0;
 }
 .zcdbzj{
     width: 990px;
-    height: 100%;
+    height: 55px;
     margin: auto;
     margin-top: 10px;
 }
